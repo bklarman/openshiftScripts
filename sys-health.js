@@ -6,7 +6,7 @@ angular
     'extensionRegistry',
     function(extensionRegistry) {
       // Replace http://status.example.com/ with your domain
-      var system_status_elem = $('<a href="http://openshift.ktis.radiantblue.local"' +
+      var system_status_elem = $('<a href="https://openshift.ktis.radiantblue.local:8443"' +
       'target="_blank" class="nav-item-iconic system-status"><span title="' +
       'System Status" class="fa status-icon pficon-warning-triangle-o">' +
       '</span></a>');
